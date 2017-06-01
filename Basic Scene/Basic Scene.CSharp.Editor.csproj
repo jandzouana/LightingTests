@@ -142,6 +142,13 @@
     <Compile Include="Assets\GoogleVR\Editor\GvrBuildProcessor.cs" />
     <Compile Include="Assets\GoogleVR\Editor\GvrEditorSettings.cs" />
     <Compile Include="Assets\GoogleVR\Editor\GvrMenu.cs" />
+    <Compile Include="Assets\OVR\Editor\OVRBuild.cs" />
+    <Compile Include="Assets\OVR\Editor\OVRManifestPreprocessor.cs" />
+    <Compile Include="Assets\OVR\Editor\OVRMoonlightLoader.cs" />
+    <Compile Include="Assets\OVR\Editor\OVRPluginUpdater.cs" />
+    <Compile Include="Assets\OVR\Editor\OVRPluginUpdaterStub.cs" />
+    <Compile Include="Assets\OVR\Editor\OVRScreenshotWizard.cs" />
+    <Compile Include="Assets\OvrAvatar\Editor\AvatarMaterialEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\GoogleVR\Demos\Environment\DemoEnvUnlitGrayscale.shader" />
@@ -158,6 +165,17 @@
     <None Include="Assets\GoogleVR\Shaders\GvrUnlitTextureOverlay.shader" />
     <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlay.shader" />
     <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlayColor.shader" />
+    <None Include="Assets\OVR\Editor\AndroidManifest.OVRSubmission.xml" />
+    <None Include="Assets\OVR\Plugins\placeholder.txt" />
+    <None Include="Assets\OVR\Resources\Underlay Impostor.shader" />
+    <None Include="Assets\OVR\Resources\Underlay Transparent Occluder.shader" />
+    <None Include="Assets\OVR\Resources\Unlit Transparent Color.shader" />
+    <None Include="Assets\OVR\Shaders\OVRColorRampAlpha.shader" />
+    <None Include="Assets\OVR\Shaders\Unlit Crosshair.shader" />
+    <None Include="Assets\OvrAvatar\Content\Materials\AvatarMaterialStateShader.cginc" />
+    <None Include="Assets\OvrAvatar\Content\Materials\AvatarSurfaceShader.shader" />
+    <None Include="Assets\OvrAvatar\Content\Materials\AvatarSurfaceShaderPBS.shader" />
+    <None Include="Assets\OvrAvatar\Content\Materials\AvatarSurfaceShaderSelfOccluding.shader" />
     <None Include="Assets\Plugins\Android\AndroidManifest-Cardboard.xml" />
     <None Include="Assets\Plugins\Android\AndroidManifest-Daydream.xml" />
     <None Include="Assets\Plugins\Android\proguard-gvr.txt" />
